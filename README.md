@@ -13,6 +13,12 @@ Takes a Regex written in my own custom syntax and outputs an NFA using the thomp
 
 ~ <- Set complement. 
 
+\* <- kleene star
+\+ <- Closure
+? <- optional
+
+
+
 Predefined Charsets:
 
 ```
