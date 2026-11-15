@@ -1,0 +1,88 @@
+end parse. Check in debugger for bad character
+NUMBER OF STATES: 34
+START: 1
+END: 16
+STATE_ID: 1 (epsilon2), 
+	NEXT: 2
+	NEXT: 17
+STATE_ID: 2 (consume), 
+	 SET:1
+	NEXT: 3
+STATE_ID: 3 (epsilon1),
+	NEXT: 4
+STATE_ID: 4 (consume), 
+	 SET:012
+	NEXT: 5
+STATE_ID: 5 (epsilon1),
+	NEXT: 6
+STATE_ID: 6 (consume), 
+	 SET:/
+	NEXT: 7
+STATE_ID: 7 (epsilon1),
+	NEXT: 8
+STATE_ID: 8 (consume), 
+	 SET:2
+	NEXT: 9
+STATE_ID: 9 (epsilon1),
+	NEXT: 10
+STATE_ID: 10 (consume), 
+	 SET:0
+	NEXT: 11
+STATE_ID: 11 (epsilon1),
+	NEXT: 12
+STATE_ID: 12 (consume), 
+	 SET:0123456789
+	NEXT: 13
+STATE_ID: 13 (epsilon1),
+	NEXT: 14
+STATE_ID: 14 (consume), 
+	 SET:0123456789
+	NEXT: 15
+STATE_ID: 15 (epsilon1),
+	NEXT: 16
+STATE_ID: 16 (accept)
+STATE_ID: 17 (epsilon2), 
+	NEXT: 18
+	NEXT: 27
+STATE_ID: 18 (consume), 
+	 SET:3
+	NEXT: 19
+STATE_ID: 19 (epsilon1),
+	NEXT: 20
+STATE_ID: 20 (consume), 
+	 SET:01
+	NEXT: 21
+STATE_ID: 21 (epsilon1),
+	NEXT: 22
+STATE_ID: 22 (epsilon1),
+	NEXT: 23
+STATE_ID: 23 (consume), 
+	 SET:/
+	NEXT: 24
+STATE_ID: 24 (epsilon1),
+	NEXT: 25
+STATE_ID: 25 (consume), 
+	 SET:123456789
+	NEXT: 26
+STATE_ID: 26 (epsilon1),
+	NEXT: 16
+STATE_ID: 27 (epsilon2), 
+	NEXT: 28
+	NEXT: 33
+STATE_ID: 28 (consume), 
+	 SET:12
+	NEXT: 29
+STATE_ID: 29 (epsilon1),
+	NEXT: 30
+STATE_ID: 30 (consume), 
+	 SET:0123456789
+	NEXT: 31
+STATE_ID: 31 (epsilon1),
+	NEXT: 32
+STATE_ID: 32 (epsilon1),
+	NEXT: 22
+STATE_ID: 33 (consume), 
+	 SET:123456789
+	NEXT: 34
+STATE_ID: 34 (epsilon1),
+	NEXT: 32
